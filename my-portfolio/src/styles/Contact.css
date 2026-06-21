@@ -1,0 +1,124 @@
+#contact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 80px;
+}
+
+.contact-container {
+  max-width: 600px;
+  width: 100%;
+  text-align: center;
+}
+
+.contact-container h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.contact-container p {
+  color: #a0a0a0;
+  font-size: 1rem;
+  line-height: 1.8;
+  margin-bottom: 40px;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  background-color: #1a1a1a;
+  border: 1px solid #2a2a2a;
+  border-radius: 4px;
+  padding: 15px 20px;
+  color: #ffffff;
+  font-size: 1rem;
+  font-family: 'Segoe UI', sans-serif;
+  outline: none;
+  transition: border-color 0.3s;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border-color: #ff6b6b;
+}
+
+.contact-form textarea {
+  resize: none;
+}
+
+.submit-btn {
+  align-self: flex-end;
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid #ff6b6b;
+  color: #ffffff;
+  font-size: 1rem;
+  letter-spacing: 3px;
+  padding: 10px 5px;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.submit-btn:hover {
+  color: #ff6b6b;
+}
+
+footer {
+  background-color: #111111;
+  padding: 40px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.back-to-top {
+  background-color: #ff6b6b;
+  color: #ffffff;
+  width: 45px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  font-size: 1.2rem;
+  transition: background-color 0.3s;
+}
+
+.back-to-top:hover {
+  background-color: #e55555;
+}
+
+.footer-links {
+  display: flex;
+  gap: 20px;
+}
+
+.footer-links a {
+  color: #a0a0a0;
+  font-size: 1.8rem;
+  transition: color 0.3s;
+}
+
+.footer-links a:hover {
+  color: #ff6b6b;
+}
+
+.footer-name {
+  color: #a0a0a0;
+  font-size: 0.8rem;
+  letter-spacing: 3px;
+}
+#contact {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 80px;
+  position:relative;
+}
