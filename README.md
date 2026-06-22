@@ -89,7 +89,7 @@ npm run build
 ## Live Demo
 
 **Portfolio Website:**
-https://your-vercel-url.vercel.app
+https://portfolio-one-chi-a8syap7d3b.vercel.app/
 
 ---
 
